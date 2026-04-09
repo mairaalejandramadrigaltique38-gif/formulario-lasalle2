@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+</head>
+
+<body style="
+font-family: Arial;
+background: linear-gradient(135deg, #4facfe, #00f2fe);
+height: 100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:0;
+">
+
+<div style="
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+width:300px;
+">
+
+<h2>Formulario de Contacto</h2>
+
+<form action="guardar.php" method="POST">
+
+<input type="text" name="nombre" placeholder="Nombre" required
+style="width:90%; padding:10px; margin:10px;"><br>
+
+<input type="email" name="correo" placeholder="Correo" required
+style="width:90%; padding:10px; margin:10px;"><br>
+
+<textarea name="mensaje" placeholder="Mensaje" required
+style="width:90%; padding:10px; margin:10px;"></textarea><br>
+
+<button type="submit" style="
+background:#007BFF;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+">
+Enviar
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
